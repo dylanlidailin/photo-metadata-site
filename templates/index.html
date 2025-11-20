@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Roman Gilbert Photography{% endblock %}
+
+{% block content %}
+<header class="hero">
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Roman Gilbert</span></h1>
+    <p class="subtitle">
+      Photographer • Data Scientist • Creative Technologist
+    </p>
+    <p class="hook">
+      Ever see a photo and wonder what camera, lens, and settings brought it to life?
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary" href="/gallery">See My Photography</a>
+      <a class="btn secondary" href="#upload-section">Analyze Your Photo</a>
+    </div>
+  </div>
+</header>
+
+<section id="upload-section" class="upload-card">
+  <h2>Upload Your Own Photo</h2>
+  <p>
+    If you have the original file, drop it here and I’ll surface all the hidden
+    EXIF details behind the shot:
+  </p>
+
+  <ul class="meta-list">
+    <li>📸 Camera Model</li>
+    <li>🔍 Lens Model</li>
+    <li>✨ Aperture</li>
+    <li>⏱ Shutter Speed</li>
+    <li>🌙 ISO</li>
+    <li>📏 Focal Length</li>
+    <li>🗓 Date &amp; Time</li>
+  </ul>
+
+  <form action="/analyze" method="POST" enctype="multipart/form-data" class="upload-form">
+    <input type="file" name="photo" accept="image/*" required>
+    <button class="btn primary" type="submit">Analyze Photo</button>
+  </form>
+</section>
+{% endblock %}
+

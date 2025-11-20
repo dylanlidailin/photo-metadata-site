@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Roman Gilbert Photography{% endblock %}</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-left">
+      <a href="/" class="logo">RG</a>
+    </div>
+    <div class="nav-right">
+      <a href="/">Home</a>
+      <a href="/gallery">My Photography</a>
+    </div>
+  </nav>
+
+  {% block content %}{% endblock %}
+</body>
+</html>
+

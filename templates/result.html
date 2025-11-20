@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Your Photo Analysis | Roman Gilbert{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Your Photo’s Specs</h1>
+  <p class="subtitle">
+    Here’s what I could extract from your image’s EXIF data.
+  </p>
+</section>
+
+<main class="photo-page">
+  <img class="photo-large" src="data:{{ mime }};base64,{{ image_data }}" alt="Uploaded photo">
+
+  <section class="meta">
+    <h2>Metadata</h2>
+    <ul>
+      <li><strong>Camera:</strong> {{ meta.camera or "Unknown" }}</li>
+      <li><strong>Lens:</strong> {{ meta.lens or "Unknown" }}</li>
+      <li><strong>ISO:</strong> {{ meta.iso or "Unknown" }}</li>
+      <li><strong>Aperture:</strong> {{ meta.aperture or "Unknown" }}</li>
+      <li><strong>Shutter Speed:</strong> {{ meta.shutter or "Unknown" }}</li>
+      <li><strong>Focal Length:</strong> {{ meta.focal_length or "Unknown" }}</li>
+      <li><strong>Timestamp:</strong> {{ meta.timestamp or "Unknown" }}</li>
+    </ul>
+
+    <div class="buttons">
+      <a class="btn secondary" href="/">Back Home</a>
+      {% if blob_name %}
+      <a class="btn primary" href="/delete_blob/{{ blob_name }}">Delete &amp; Return Home</a>
+      {% endif %}
+    </div>
+  </section>
+</main>
+
+{% if blob_name %}
+<script>
+  // Best-effort auto delete when user leaves this page
+  window.addEventListener("beforeunload", () => {
+    navigator.sendBeacon("/delete_blob/{{ blob_name }}");
+  });
+</script>
+{% endif %}
+{% endblock %}
+

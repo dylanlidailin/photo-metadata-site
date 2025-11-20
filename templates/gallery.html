@@ -1,0 +1,26 @@
+<!-- DEBUG: GALLERY TEMPLATE LOADED -->
+{% extends "base.html" %}
+
+{% block title %}My Photography | Roman Gilbert{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>My Photography</h1>
+  <p class="subtitle">
+    A curated set of images with their camera & lens specs revealed.
+  </p>
+</section>
+
+<main class="grid">
+  {% for photo in photos %}
+  <a class="card" href="/photo/{{ photo.filename }}">
+    <img src="{{ photo.drive_url }}" alt="{{ photo.filename }}">
+    <div class="card-body">
+      <h2>{{ photo.camera or "Unknown Camera" }}</h2>
+      <p>{{ photo.filename }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</main>
+{% endblock %}
+

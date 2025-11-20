@@ -1,0 +1,91 @@
+[
+  {
+    "filename": "photo1.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1YaP9tuhLy306trBqbusd49GGuGffhOKO",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 160,
+    "aperture": "f/4.0",
+    "shutter_speed": "1/640",
+    "focal_length": "55mm",
+    "timestamp": "2024:05:12 15:22:10"
+  },
+  {
+    "filename": "photo2.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1UIvxtpFivilnY13Gz-Ikg4I0sCM-MvJF",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 200,
+    "aperture": "f/4.5",
+    "shutter_speed": "1/500",
+    "focal_length": "45mm",
+    "timestamp": "2024:05:12 15:30:41"
+  },
+  {
+    "filename": "photo3.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1kyvEQ3m3aaAye7OB-BCvBbC9kXjNqDCE",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 100,
+    "aperture": "f/5.6",
+    "shutter_speed": "1/800",
+    "focal_length": "85mm",
+    "timestamp": "2024:05:12 16:10:05"
+  },
+  {
+    "filename": "photo4.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1O_HVbDwXI8rJNLP6UN2h06Ciiu144xdq",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 250,
+    "aperture": "f/3.5",
+    "shutter_speed": "1/320",
+    "focal_length": "35mm",
+    "timestamp": "2024:09:11 18:42:18"
+  },
+  {
+    "filename": "photo5.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1C-mFTH6qGc4GJZoLTUId_U9ldcOdht0G",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 320,
+    "aperture": "f/3.5",
+    "shutter_speed": "1/250",
+    "focal_length": "28mm",
+    "timestamp": "2024:09:11 18:47:52"
+  },
+  {
+    "filename": "photo6.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1Blk698-B7F9H8QZYM6Qj9v0hMil63Ooq",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 640,
+    "aperture": "f/5.0",
+    "shutter_speed": "1/200",
+    "focal_length": "70mm",
+    "timestamp": "2024:04:08 13:21:40"
+  },
+  {
+    "filename": "photo7.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=151x8aRWiw25Qx75ANg2OuHFzdqXTso1R",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 200,
+    "aperture": "f/4.0",
+    "shutter_speed": "1/1000",
+    "focal_length": "42mm",
+    "timestamp": "2024:06:15 14:05:33"
+  },
+  {
+    "filename": "photo8.jpg",
+    "drive_url": "https://drive.google.com/thumbnail?authuser=0&sz=w2000&id=1aqSPUEqjD2l44Q9JBz9IkfqP7edJuenG",
+    "camera": "Canon EOS R50",
+    "lens": "Canon EF-S 18-135mm f/3.5-5.6 IS STM",
+    "iso": 100,
+    "aperture": "f/7.1",
+    "shutter_speed": "1/400",
+    "focal_length": "18mm",
+    "timestamp": "2024:03:20 11:12:55"
+  }
+]
+

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ photo.filename }} | Roman Gilbert{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <a href="/gallery" class="back-link">← Back to gallery</a>
+  <h1>{{ photo.filename }}</h1>
+</section>
+
+<main class="photo-page">
+
+<img class="full-photo" src="{{ photo.drive_url }}" alt="{{ photo.filename }}">
+
+  <section class="meta">
+    <h2>Metadata</h2>
+    <ul>
+      <li><strong>Camera:</strong> {{ photo.camera or "Unknown" }}</li>
+      <li><strong>Lens:</strong> {{ photo.lens or "Unknown" }}</li>
+      <li><strong>ISO:</strong> {{ photo.iso or "Unknown" }}</li>
+      <li><strong>Aperture:</strong> {{ photo.aperture or "Unknown" }}</li>
+      <li><strong>Shutter Speed:</strong> {{ photo.shutter or "Unknown" }}</li>
+      <li><strong>Focal Length:</strong> {{ photo.focal_length or "Unknown" }}</li>
+      <li><strong>Timestamp:</strong> {{ photo.timestamp or "Unknown" }}</li>
+    </ul>
+  </section>
+</main>
+{% endblock %}
+

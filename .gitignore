@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.env
+assets/photos_raw/
+assets/photos_processed/
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.JPG
+*.JPEG
+*.PNG
+*.HEIC
+
