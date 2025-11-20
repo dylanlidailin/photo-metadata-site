@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   background: radial-gradient(circle at top, #14141c 0, #050509 60%);
+  background-color: #f7f7ff;
   color: #f7f7ff;
 }
 
@@ -99,6 +100,7 @@ body {
   background: linear-gradient(90deg, #6ab0ff, #b76cff);
   color: #050509;
   box-shadow: 0 12px 24px rgba(24, 119, 242, 0.35);
+  margin-left: 0.75rem;
 }
 
 .btn.primary:hover {
